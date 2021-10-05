@@ -1,0 +1,206 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "/img/products/mouseRazer.svg",
+      "price": 180.94,
+      "promotion": 155.90,
+      "title": "Mouse Gamer Razer Deathadder",
+      "titleBackground": "MouseS"
+    },
+    {
+      "id": 2,
+      "img": "/img/products/mouseT.svg",
+      "price": 89.90,
+      "promotion": 79.90,
+      "title": "Mouse Gamer T-Dagger Sergeant Rgb - T-TGM202",
+      "titleBackground": "MouseS"
+    },
+    {
+      "id": 3,
+      "img": "/img/products/mouseGL.svg",
+      "price": 399.90,
+      "promotion": 359.90,
+      "title": "Mouse Gamer Logitech G502 Hero K/da Edition Rgb 25.600 Dpi",
+      "titleBackground": "MouseS"
+    },
+    {
+      "id": 4,
+      "img": "/img/products/mouseSteels.svg",
+      "price": 845.81,
+      "promotion": 486.10,
+      "title": "Mouse Gamer Steelseries Rival 600 Black 62446",
+      "titleBackground": "MouseS"
+    },
+    {
+      "id": 5,
+      "img": "/img/products/headsetBlue.svg",
+      "price": 548,
+      "promotion": 488.90,
+      "title": "Headset Gamer Logitech G432 7.1 Dolby Surround",
+      "titleBackground": "HeadseatS"
+    },
+    {
+      "id": 6,
+      "img": "/img/products/headsetHyperx.svg",
+      "price": 349.94,
+      "promotion": 319.90,
+      "title": "Fone de Ouvido Headset Gamer Hyperx Cloud Stinger, Preto, HX-HSCS-BK/A",
+      "titleBackground": "HeadseatS"
+    },
+    {
+      "id": 7,
+      "img": "/img/products/headsetRazerGreen.svg",
+      "price": 549.94,
+      "promotion": 511.90,
+      "title": "Razer Rz.au.kr.13rt Headset Razer Kraken X Usb",
+      "titleBackground": "HeadseatS"
+    },
+    {
+      "id": 8,
+      "img": "/img/products/headsetRazer.svg",
+      "price": 1849.94,
+      "promotion": 1759.90,
+      "title": "Headset Gamer Razer Nari Ultimate",
+      "titleBackground": "HeadseatS"
+    },
+    {
+      "id": 9,
+      "img": "/img/products/mousePadRazer.svg",
+      "price": 99.90,
+      "promotion": 69.90,
+      "title": "Razer Rz.mp.go.67rt Razer Mousepad",
+      "titleBackground": "MousepadS"
+    },
+    {
+      "id": 10,
+      "img": "/img/products/mousePadRazer1.svg",
+      "price": 599.90,
+      "promotion": 519.90,
+      "title": "Mousepad Gamer Razer Firefly V2",
+      "titleBackground": "MousepadS"
+    },
+    {
+      "id": 11,
+      "img": "/img/products/mousePadSteels.svg",
+      "price": 155.90,
+      "promotion": 105.90,
+      "title": "Mousepad Gamer Steelseries Qck Heavy",
+      "titleBackground": "MousepadS"
+    },
+    {
+      "id": 12,
+      "img": "/img/products/mousePadHyperx.svg",
+      "price": 109.90,
+      "promotion": 84.90,
+      "title": "Mousepad Gamer Hyperx Fury S Speed Edition",
+      "titleBackground": "MousepadS"
+    },
+    {
+      "id": 13,
+      "img": "/img/products/tecladoRedragon.svg",
+      "price": 421.77,
+      "promotion": 299.33,
+      "title": "Teclado Gamer Redragon Kumara",
+      "titleBackground": "TecladoS"
+    },
+    {
+      "id": 14,
+      "img": "/img/products/tecladoLogitech.svg",
+      "price": 479.77,
+      "promotion": 219.33,
+      "title": "Teclado Gamer G213 Prodigy - Logitech G",
+      "titleBackground": "TecladoS"
+    },
+    {
+      "id": 15,
+      "img": "/img/products/tecladoLogitech1.svg",
+      "price": 689.77,
+      "promotion": 649.49,
+      "title": "Teclado Mecanico Logitech Gamer G Gx Blue Clicky",
+      "titleBackground": "TecladoS"
+    },
+    {
+      "id": 16,
+      "img": "/img/products/tecladoCynosa.svg",
+      "price": 889.77,
+      "promotion": 749.49,
+      "title": "Teclado Gamer Mecânico Razer Cynosa V2, Razer Chroma RGB",
+      "titleBackground": "TecladoS"
+    },
+    {
+      "id": 17,
+      "img": "/img/products/cadeiraExtreme.svg",
+      "price": 1446.94,
+      "promotion": 1379.90,
+      "title": "Cadeira Gamer Extreme Youtuber Premium",
+      "titleBackground": "CadeiraS"
+    },
+    {
+      "id": 18,
+      "img": "/img/products/cadeiraFantech.svg",
+      "price": 1399.94,
+      "promotion": 1217.90,
+      "title": "Cadeira Fantech Extreme Gaming White",
+      "titleBackground": "CadeiraS"
+    },
+    {
+      "id": 19,
+      "img": "/img/products/cadeiraMymax.svg",
+      "price": 1199.94,
+      "promotion": 1095.90,
+      "title": "Cadeira Gamer Mx7, Mymax, 25.008788",
+      "titleBackground": "CadeiraS"
+    },
+    {
+      "id": 20,
+      "img": "/img/products/cadeiraZone.svg",
+      "price": 1099.94,
+      "promotion": 919.90,
+      "title": "Cadeira Gamer XZONE, Premium",
+      "titleBackground": "CadeiraS"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "img": "/img/products/headsetBlue.svg",
+      "price": 446.94,
+      "promotion": 379.90,
+      "title": "Headset Gamer Logitech G432 7.1 Dolby Surround",
+      "titleBackground": "HeadseatS"
+    },
+    {
+      "id": 2,
+      "img": "/img/products/mouseRazer.svg",
+      "price": 180.94,
+      "promotion": 155.90,
+      "title": "Mouse Gamer Razer Deathadder",
+      "titleBackground": "MouseS"
+    },
+    {
+      "id": 3,
+      "img": "/img/products/mousePadRazer.svg",
+      "price": 99.90,
+      "promotion": 69.90,
+      "title": "Razer Rz.mp.go.67rt Razer Mousepad",
+      "titleBackground": "MousepadS"
+    },
+    {
+      "id": 4,
+      "img": "/img/products/cadeiraExtreme.svg",
+      "price": 1446.94,
+      "promotion": 1379.90,
+      "title": "Cadeira Gamer Extreme Youtuber Premium",
+      "titleBackground": "CadeiraS"
+    },
+    {
+      "id": 5,
+      "img": "/img/products/tecladoRedragon.svg",
+      "price": 421.77,
+      "promotion": 299.33,
+      "title": "Teclado Gamer Redragon Kumara",
+      "titleBackground": "TecladoS"
+    }
+  ]  
+}

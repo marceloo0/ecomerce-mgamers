@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardMenu /> should render default 1`] = `
+.c0 {
+  border: 1px solid #7FFA45;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  background-color: #201C2B;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c0:hover {
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+}
+
+.c1 {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c2 {
+  color: #C7ECEC;
+  font-size: 1.2rem;
+}
+
+.c3 {
+  font-weight: bold;
+  color: #25AF43;
+  font-size: 3.8rem;
+}
+
+.c4 {
+  height: 360px;
+  width: 380px;
+  position: absolute;
+  right: -100px;
+  top: -50px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  font-size: 5.8rem;
+  color: #2E2F42;
+  font-weight: bold;
+}
+
+<button
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Apartir de
+    </span>
+    <span
+      class="c3"
+    >
+      R$ 109,00
+    </span>
+  </div>
+  <img
+    alt="teclados"
+    class="c4"
+    src="/img/products/mouse.svg"
+  />
+  <span
+    class="c5"
+  >
+    teclados
+  </span>
+</button>
+`;
