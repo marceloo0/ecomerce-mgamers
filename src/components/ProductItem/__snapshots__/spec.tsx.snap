@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductItem /> should render default 1`] = `
+.c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: #C7ECEC;
+  background-color: #201C2B;
+  padding: 1rem;
+}
+
+.c12:hover {
+  background-color: #332756;
+}
+
+.c12 > svg {
+  color: #7FFA45;
+  margin-right: 0.5rem;
+}
+
+.c14 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: #C7ECEC;
+  background-color: #201C2B;
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.c14:hover {
+  background-color: #332756;
+}
+
+.c14 > svg {
+  color: #7FFA45;
+}
+
+.c14:hover {
+  border: 1px solid #7FFA45;
+  background-color: transparent;
+}
+
+.c2 {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  color: #2E2F42;
+}
+
+.c0 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 320px;
+}
+
+.c8 {
+  color: #C7ECEC;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.c9 {
+  color: #415151;
+  font-size: 1.4rem;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+}
+
+.c10 {
+  font-size: 1.6rem;
+  color: #25AF43;
+  line-height: 13px;
+}
+
+.c5 {
+  left: 0;
+}
+
+.c6 {
+  height: 20rem;
+  z-index: 2;
+  object-fit: cover;
+}
+
+.c11 {
+  display: none;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.c1 {
+  position: absolute;
+  left: auto;
+  top: -5rem;
+  z-index: 0;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c3 {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    font-size: 10rem;
+  }
+}
+
+@media (min-width:800px) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    width: 380px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c7 {
+    width: 600px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c8 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c9 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c10 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    height: 25rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c6 {
+    height: 45rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        MouseS
+      </span>
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    <div
+      class="c5"
+    >
+      <img
+        alt="/img/products/mouseRazer.svg"
+        class="c6"
+        src="/img/products/mouseRazer.svg"
+      />
+    </div>
+    <section
+      class="c7"
+    >
+      <h1
+        class="c8"
+      >
+        Mouse Gamer Razer Deathadder
+      </h1>
+      <span
+        class="c9"
+      >
+        R$ 180,94
+      </span>
+      <h3
+        class="c10"
+      >
+        R$ 155,90
+      </h3>
+      <div
+        class="c11"
+      >
+        <button
+          class="c12"
+        >
+          <svg
+            fill="currentColor"
+            height="24"
+            stroke="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+            />
+          </svg>
+          <span>
+            Adicionar ao Carrinho
+          </span>
+        </button>
+      </div>
+      <div
+        class="c13"
+      >
+        <button
+          class="c14"
+        >
+          <svg
+            fill="currentColor"
+            height="36"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="36"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"
+            />
+          </svg>
+        </button>
+        <button
+          class="c12"
+        >
+          <svg
+            fill="currentColor"
+            height="24"
+            stroke="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+            />
+          </svg>
+          <span>
+            Adicionar ao Carrinho
+          </span>
+        </button>
+        <button
+          class="c14"
+        >
+          <svg
+            fill="currentColor"
+            height="36"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="36"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+`;

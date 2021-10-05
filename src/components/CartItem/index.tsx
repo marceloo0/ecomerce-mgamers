@@ -7,7 +7,15 @@ import { Button } from '../Button'
 
 import * as S from './styles'
 
-export const CartItem = ({ img, title, quantity, id, promotion }: Stock) => {
+export const CartItem = ({
+  id,
+  img,
+  title,
+  quantity,
+  promotion
+}: // price,
+// titleBackground
+Stock) => {
   const { decrement, increment } = useCart()
 
   const handleDecrement = (id: number) => {

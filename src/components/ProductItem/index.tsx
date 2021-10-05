@@ -20,6 +20,7 @@ export const ProductItem = ({
   handleNextSlide
 }: ProductItemProps) => {
   const { addProduct } = useCart()
+
   return (
     <S.Wrapper>
       <S.BoxTitle>

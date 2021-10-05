@@ -7,7 +7,7 @@ describe('<News />', () => {
   it('should render default', () => {
     const { container } = renderWithTheme(<News />)
 
-    expect(screen.getByRole('default', { name: /News/i })).toBeInTheDocument()
+    expect(screen.getByLabelText(/news/i)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> should render default 1`] = `
+.c0 {
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid #7FFA45;
+  border-radius: 50%;
+  background-color: #201C2B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  text-transform: uppercase;
+  color: #C7ECEC;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    m
+  </span>
+</div>
+`;

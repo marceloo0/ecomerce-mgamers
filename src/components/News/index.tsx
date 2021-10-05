@@ -18,7 +18,7 @@ export const News = () => {
   }, [])
 
   return (
-    <S.Wrapper>
+    <S.Wrapper aria-label="news">
       <S.BoxTitle>
         <TitleBackground title="NovidadeS" />
       </S.BoxTitle>

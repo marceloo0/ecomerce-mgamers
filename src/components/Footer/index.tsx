@@ -20,7 +20,7 @@ export const Footer = () => {
           <S.TotalText>Valor total:</S.TotalText>
           <S.Title>{formatedValue(total)}</S.Title>
           <div style={{ padding: 24 }}>
-            <Button onClick={() => {}} size="large">
+            <Button onClick={() => {}} size="large" aria-label="finaliza">
               Finalizar compra
             </Button>
           </div>

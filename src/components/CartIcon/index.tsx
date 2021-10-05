@@ -13,8 +13,8 @@ export const CartIcon = () => {
 
   return (
     <S.Wrapper onClick={handleCart}>
-      {totalItems > 0 && <S.Badge aria-label="Items">{totalItems}</S.Badge>}
-      <S.Icon aria-label="Shopify" />
+      {totalItems > 0 && <S.Badge aria-label="items">{totalItems}</S.Badge>}
+      <S.Icon aria-label="shopify" />
     </S.Wrapper>
   )
 }

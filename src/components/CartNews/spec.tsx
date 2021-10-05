@@ -4,27 +4,29 @@ import { renderWithTheme } from '../../utils/tests/helpers'
 import { CartNews } from '.'
 
 const props = {
-  price: '109',
-  titleBackground: 'teclados',
-  img: '/img/products/mouse.svg',
-  promotion: '89',
-  title: ''
+  item: {
+    id: 1,
+    img: '/img/products/mouseRazer.svg',
+    price: 180.94,
+    promotion: 155.9,
+    title: 'Mouse Gamer Razer Deathadder',
+    titleBackground: 'MouseS',
+    quantity: 0
+  }
 }
 
 describe('<CartNews />', () => {
   it('should render default', () => {
     const { container } = renderWithTheme(<CartNews {...props} />)
 
-    expect(screen.getByText('R$ 109,00')).toBeInTheDocument()
+    expect(
+      screen.getByText(/Mouse Gamer Razer Deathadder/i)
+    ).toBeInTheDocument()
 
-    expect(screen.getByText('R$ 89,00')).toBeInTheDocument()
-
-    expect(screen.getByRole('img', { name: props.img })).toHaveAttribute(
+    expect(screen.getByRole('img', { name: props.item.img })).toHaveAttribute(
       'src',
-      props.img
+      props.item.img
     )
-
-    // expect(screen.getByText(/teclados/i)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

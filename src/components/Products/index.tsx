@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
-
+import { PRODUCTS } from '../../constants/api/products'
+import api from '../../services/api'
 import { ProductsProps } from '../../constants/interfaces/Products'
 import { useCart } from '../../hooks/index'
 import { Sider, ProductItem } from '../../components/index'
@@ -12,12 +13,17 @@ interface ProductItemsProps {
 }
 
 export const Products = ({ type }: ProductItemsProps) => {
+  const [products, setProducts] = useState<ProductsProps[]>([])
   const [current, setCurrent] = useState(0)
   const [productsItems, setProductsItems] = useState<ProductsProps[]>([])
-  const { products } = useCart()
   const length = type === 'products' ? products.length : productsItems.length
 
-  console.log(type)
+  useEffect(() => {
+    api.get(PRODUCTS).then((response) => {
+      setProducts(response.data?.products)
+    })
+  }, [])
+
   useEffect(() => {
     const handleMenu = (type: string) => {
       const item = products.filter((item) => item.titleBackground === type)

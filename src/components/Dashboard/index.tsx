@@ -16,7 +16,7 @@ export const Dashboard = ({ type }: ProductItemsProps) => {
   }
 
   return (
-    <S.Wrapper>
+    <S.Wrapper aria-label="dashboard">
       <Header setShowMenu={handleShowMenu} />
       {!showMenu ? (
         <>

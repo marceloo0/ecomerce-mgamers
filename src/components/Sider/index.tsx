@@ -9,9 +9,9 @@ export const Sider = ({ handleNextSlide, handlePrevSlide }: SiderProps) => {
   return (
     <S.Box>
       <Button
+        aria-label="back"
         icon={<IoIosArrowBack size={36} />}
         size="small"
-        aria-label="arrow back"
         onClick={handlePrevSlide}
       />
       <Button

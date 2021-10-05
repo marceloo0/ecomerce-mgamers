@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render default 1`] = `
+.c0 {
+  border: none;
+  background-color: transparent;
+}
+
+.c1 {
+  width: 6rem;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c1 {
+    width: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    width: 9rem;
+  }
+}
+
+<button
+  class="c0"
+>
+  <img
+    alt="logo"
+    class="c1"
+    role="img"
+    src="/img/logo.svg"
+  />
+</button>
+`;

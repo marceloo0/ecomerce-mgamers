@@ -7,9 +7,7 @@ import {
 } from 'react'
 import Router from 'next/router'
 import { ProductsProps, Stock } from '../constants/interfaces/Products'
-import { PRODUCTS } from '../constants/api/products'
 import { useAuth } from '../hooks/useAuth'
-import api from '../services/api'
 
 interface CartProviderProps {
   children: ReactNode
@@ -28,7 +26,6 @@ export const CartContextDefaultValues = {
 
 interface CartContextData {
   carts: Stock[]
-  products: ProductsProps[]
   increment(id: number): void
   decrement(id: number): void
   addProduct: (productId: ProductsProps) => void
@@ -42,17 +39,10 @@ export const CartContext = createContext<CartContextData>({} as CartContextData)
 export function CartContextProvider({
   children
 }: CartProviderProps): JSX.Element {
-  const [products, setProducts] = useState<ProductsProps[]>([])
   const [carts, setCarts] = useState<Stock[]>([])
   const [total, setTotal] = useState(0)
   const [totalItems, setTotalItems] = useState(0)
   const { user } = useAuth()
-
-  useEffect(() => {
-    api.get(PRODUCTS).then((response) => {
-      setProducts(response.data?.products)
-    })
-  }, [])
 
   useEffect(() => {
     const totalParcial = Object.values(carts).reduce((acc, cart) => {
@@ -137,7 +127,6 @@ export function CartContextProvider({
   return (
     <CartContext.Provider
       value={{
-        products,
         carts,
         total,
         totalItems,

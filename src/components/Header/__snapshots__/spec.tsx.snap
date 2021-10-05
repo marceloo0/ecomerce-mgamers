@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render with user 1`] = `
+.c1 {
+  border: none;
+  background-color: transparent;
+}
+
+.c2 {
+  width: 6rem;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #201C2B;
+  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  color: #C7ECEC;
+  font-size: 0.9rem;
+}
+
+.c6 {
+  color: #C7ECEC;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.c7 {
+  width: 36px;
+  height: 36px;
+  color: #7FFA45;
+  margin-left: 8px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c2 {
+    width: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 9rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1"
+  >
+    <img
+      alt="logo"
+      class="c2"
+      role="img"
+      src="/img/logo.svg"
+    />
+  </button>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <span
+        class="c5"
+      >
+        Ola, Visitante
+      </span>
+      <button
+        class="c6"
+      >
+        Faça seu login
+      </button>
+    </div>
+    <button
+      style="background-color: transparent;"
+    >
+      <svg
+        class="c7"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M22 18.0048C22 18.5544 21.5544 19 21.0048 19H12.9952C12.4456 19 12 18.5544 12 18.0048C12 17.4552 12.4456 17.0096 12.9952 17.0096H21.0048C21.5544 17.0096 22 17.4552 22 18.0048Z"
+          fill="currentColor"
+        />
+        <path
+          d="M22 12.0002C22 12.5499 21.5544 12.9954 21.0048 12.9954H2.99519C2.44556 12.9954 2 12.5499 2 12.0002C2 11.4506 2.44556 11.0051 2.99519 11.0051H21.0048C21.5544 11.0051 22 11.4506 22 12.0002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M21.0048 6.99039C21.5544 6.99039 22 6.54482 22 5.99519C22 5.44556 21.5544 5 21.0048 5H8.99519C8.44556 5 8 5.44556 8 5.99519C8 6.54482 8.44556 6.99039 8.99519 6.99039H21.0048Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Header /> should render without user 1`] = `
+.c1 {
+  border: none;
+  background-color: transparent;
+}
+
+.c2 {
+  width: 6rem;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #201C2B;
+  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  color: #C7ECEC;
+  font-size: 0.9rem;
+}
+
+.c6 {
+  color: #C7ECEC;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.c7 {
+  width: 36px;
+  height: 36px;
+  color: #7FFA45;
+  margin-left: 8px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c2 {
+    width: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 9rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1"
+  >
+    <img
+      alt="logo"
+      class="c2"
+      role="img"
+      src="/img/logo.svg"
+    />
+  </button>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <span
+        class="c5"
+      >
+        Ola, Visitante
+      </span>
+      <button
+        class="c6"
+      >
+        Faça seu login
+      </button>
+    </div>
+    <button
+      style="background-color: transparent;"
+    >
+      <svg
+        class="c7"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M22 18.0048C22 18.5544 21.5544 19 21.0048 19H12.9952C12.4456 19 12 18.5544 12 18.0048C12 17.4552 12.4456 17.0096 12.9952 17.0096H21.0048C21.5544 17.0096 22 17.4552 22 18.0048Z"
+          fill="currentColor"
+        />
+        <path
+          d="M22 12.0002C22 12.5499 21.5544 12.9954 21.0048 12.9954H2.99519C2.44556 12.9954 2 12.5499 2 12.0002C2 11.4506 2.44556 11.0051 2.99519 11.0051H21.0048C21.5544 11.0051 22 11.4506 22 12.0002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M21.0048 6.99039C21.5544 6.99039 22 6.54482 22 5.99519C22 5.44556 21.5544 5 21.0048 5H8.99519C8.44556 5 8 5.44556 8 5.99519C8 6.54482 8.44556 6.99039 8.99519 6.99039H21.0048Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

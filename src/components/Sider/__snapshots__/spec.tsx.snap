@@ -62,7 +62,7 @@ exports[`<Sider /> should render default 1`] = `
   class="c0"
 >
   <button
-    aria-label="arrow back"
+    aria-label="back"
     class="c1"
   >
     <svg

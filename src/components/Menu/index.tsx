@@ -16,7 +16,7 @@ export const Menu = ({ handleShowMenu }: MenuProps) => {
   }
 
   return (
-    <S.Wrapper>
+    <S.Wrapper aria-label="menu">
       <S.BoxGrid>
         {menu.map((item, index) => (
           <CardMenu

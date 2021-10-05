@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cart /> should render default 1`] = `
+.c19 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: #C7ECEC;
+  background-color: #201C2B;
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.c19:hover {
+  background-color: #332756;
+}
+
+.c19 > svg {
+  color: #7FFA45;
+}
+
+.c19:hover {
+  border: 1px solid #7FFA45;
+  background-color: transparent;
+}
+
+.c13 {
+  max-width: 1060px;
+  width: 100%;
+  padding: 12px;
+  margin: auto;
+  z-index: 4;
+}
+
+.c20 {
+  border-bottom: 1px solid #415151;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  padding: 12px;
+  margin: auto;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c17 {
+  color: #C7ECEC;
+  font-size: 1.2rem;
+}
+
+.c18 {
+  color: #7FFA45;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.c16 {
+  height: 9rem;
+  width: 100%;
+}
+
+.c22 {
+  width: 100%;
+  height: 100px;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #201C2B;
+  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  color: #C7ECEC;
+  font-size: 0.9rem;
+}
+
+.c7 {
+  color: #C7ECEC;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.c8 {
+  width: 36px;
+  height: 36px;
+  color: #7FFA45;
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  background-color: transparent;
+}
+
+.c3 {
+  width: 6rem;
+}
+
+.c10 {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c11 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  color: #2E2F42;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c21 {
+  width: 100%;
+}
+
+.c9 {
+  position: absolute;
+  left: auto;
+  top: 5rem;
+  z-index: 0;
+}
+
+.c12 {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c3 {
+    width: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 9rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .c11 {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    font-size: 10rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <button
+      class="c2"
+    >
+      <img
+        alt="logo"
+        class="c3"
+        role="img"
+        src="/img/logo.svg"
+      />
+    </button>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <span
+          class="c6"
+        >
+          Ola, Visitante
+        </span>
+        <button
+          class="c7"
+        >
+          Faça seu login
+        </button>
+      </div>
+      <button
+        style="background-color: transparent;"
+      >
+        <svg
+          class="c8"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 18.0048C22 18.5544 21.5544 19 21.0048 19H12.9952C12.4456 19 12 18.5544 12 18.0048C12 17.4552 12.4456 17.0096 12.9952 17.0096H21.0048C21.5544 17.0096 22 17.4552 22 18.0048Z"
+            fill="currentColor"
+          />
+          <path
+            d="M22 12.0002C22 12.5499 21.5544 12.9954 21.0048 12.9954H2.99519C2.44556 12.9954 2 12.5499 2 12.0002C2 11.4506 2.44556 11.0051 2.99519 11.0051H21.0048C21.5544 11.0051 22 11.4506 22 12.0002Z"
+            fill="currentColor"
+          />
+          <path
+            d="M21.0048 6.99039C21.5544 6.99039 22 6.54482 22 5.99519C22 5.44556 21.5544 5 21.0048 5H8.99519C8.44556 5 8 5.44556 8 5.99519C8 6.54482 8.44556 6.99039 8.99519 6.99039H21.0048Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="c9"
+  >
+    <div
+      class="c10"
+    >
+      <span
+        class="c11"
+      >
+        Seu Carrinho
+      </span>
+    </div>
+  </div>
+  <div
+    class="c12"
+  >
+    <div
+      class="c13"
+    >
+      <div
+        class="c14"
+      >
+        <div
+          class="c15"
+        >
+          <img
+            alt="/img/products/mouseRazer.svg"
+            class="c16"
+            src="/img/products/mouseRazer.svg"
+          />
+        </div>
+        <div
+          class="c15"
+        >
+          <h3
+            class="c17"
+          >
+            Mouse Gamer Razer Deathadder
+          </h3>
+        </div>
+        <div
+          class="c14"
+        >
+          <div
+            class="c15"
+          >
+            <span
+              class="c18"
+            >
+              R$ 155,90
+            </span>
+          </div>
+          <div
+            class="c15"
+            style="margin-left: 24px;"
+          >
+            <button
+              class="c19"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+                />
+              </svg>
+            </button>
+            <button
+              class="c19"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c20"
+      />
+    </div>
+    <div
+      class="c13"
+    >
+      <div
+        class="c14"
+      >
+        <div
+          class="c15"
+        >
+          <img
+            alt="/img/products/headsetBlue.svg"
+            class="c16"
+            src="/img/products/headsetBlue.svg"
+          />
+        </div>
+        <div
+          class="c15"
+        >
+          <h3
+            class="c17"
+          >
+            Headset Gamer Logitech G432 7.1 Dolby Surround
+          </h3>
+        </div>
+        <div
+          class="c14"
+        >
+          <div
+            class="c15"
+          >
+            <span
+              class="c18"
+            >
+              R$ 488,90
+            </span>
+          </div>
+          <div
+            class="c15"
+            style="margin-left: 24px;"
+          >
+            <button
+              class="c19"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+                />
+              </svg>
+            </button>
+            <button
+              class="c19"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c20"
+      />
+    </div>
+    <div
+      class="c21"
+    >
+      <div
+        class="c22"
+      />
+    </div>
+  </div>
+</div>
+`;
