@@ -1,28 +1,13 @@
-import Router from 'next/router'
 import { useAuth, useCart } from '../../hooks'
 
 import { Avatar, CartIcon, Logo } from '../../components/index'
 import { HeaderProps } from '../../constants/interfaces/Header'
 
 import * as S from './styles'
-import { useState } from 'react'
 
 export const Header = ({ login = false, setShowMenu }: HeaderProps) => {
   const { user } = useAuth()
   const { openModal } = useCart()
-  // const [modalIsOpen, setIsOpen] = useState(false)
-
-  const handleLogin = () => {
-    Router.push('/signIn')
-  }
-
-  // function openModal() {
-  //   setIsOpen(true)
-  // }
-
-  // function closeModal() {
-  //   setIsOpen(false)
-  // }
 
   return (
     <S.Wrapper>
