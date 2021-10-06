@@ -4,8 +4,8 @@
 
 
 <p align = "center">
-  <img alt = "GitHub language count" src = "https://img.shields.io/github/languages/count/marceloppb/ecomerce-mgamers">
-  <img alt = "GitHub principal idioma" src = "https://img.shields.io/github/languages/top/marceloppb/ecomerce-mgamers">
+  <img alt = "GitHub language count" src = "https://img.shields.io/github/languages/count/marceloo0/ecomerce-mgamers">
+  <img alt = "GitHub principal idioma" src = "https://img.shields.io/github/languages/top/marceloo0/ecomerce-mgamers">
 </p>
 
 ## Link para acessar o site deste aplicativo
