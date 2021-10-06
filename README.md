@@ -12,6 +12,12 @@
 
 <a>https://ecomerce-mgamers.vercel.app</a>
 
+## Alguns exemplos de telas
+
+<img src="/public/img/Produtos.png" alt="Produtos">
+<img src="/public/img/Novidades.png" alt="Novidades">
+<img src="/public/img/Carrinho.png" alt="Carrinho">
+
 ## Pequena descrição
 
 Projeto foi desenvolvido para que o cliente possa comprar seus produtos gamers.
@@ -21,6 +27,8 @@ Projeto foi desenvolvido para que o cliente possa comprar seus produtos gamers.
 Neste ecomerce tem varias funcionalidades, como autenticação utilizando login GOOGLE (firebase), Storybook para criar os componentes e documenta-lós, Typescript para desenvolver toda a aplicação, Styled-Components para estilização, Context API para compartilhar estado dentro do app carrinho de compras.
 
 ## 💻 Link do Figma 
+
+<a>https://www.figma.com/file/pQS946ZppZRqVNn517IXl7/MGamerS?node-id=53%3A0</a>
 
 ## 🚀 Tecnologias
 
@@ -34,7 +42,7 @@ As tecnologias utilizadas:
 - [Firebase] (https://console.firebase.google.com)
 - [Storybook] (https://storybook.js.org/)
 
-## Iniando o app
+## Inciando o app
 
 1. Clone este repo usando `git clone https://github.com/marceloppb/ecomerce-mgamers.git`
 2. Mova para o diretório apropriado: `cd ecomerce-mgamers` <br />

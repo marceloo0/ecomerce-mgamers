@@ -6,13 +6,14 @@ import {
   Header,
   CartItem,
   Footer,
+  ModalThanks,
   TitleBackground
-} from '../../components/index'
+} from '../../components'
 
 import * as S from './styles'
 
 export const Cart = () => {
-  const { carts } = useCart()
+  const { carts, modalIsOpen } = useCart()
 
   const handleAdicione = () => {
     Router.push('/')
@@ -27,7 +28,7 @@ export const Cart = () => {
       <S.Content>
         {carts?.length >= 1 ? (
           carts.map((item) => (
-            <div key={item.id} style={{ zIndex: 4 }}>
+            <div key={item.id} style={{ zIndex: 0 }}>
               <CartItem
                 img={item.img}
                 title={item.title}
@@ -53,6 +54,7 @@ export const Cart = () => {
           </S.FooterWapper>
         )}
       </S.Content>
+      {modalIsOpen && <ModalThanks />}
     </S.Wrapper>
   )
 }

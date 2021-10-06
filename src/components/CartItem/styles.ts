@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
   padding: 12px;
   margin: auto;
-  z-index: 4;
+  /* z-index: 1; */
 `
 export const Divider = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.gray};

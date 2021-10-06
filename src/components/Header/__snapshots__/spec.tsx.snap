@@ -26,7 +26,6 @@ exports[`<Header /> should render with user 1`] = `
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: #201C2B;
-  z-index: 99;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -184,7 +183,6 @@ exports[`<Header /> should render without user 1`] = `
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: #201C2B;
-  z-index: 99;
   position: -webkit-sticky;
   position: sticky;
   top: 0;

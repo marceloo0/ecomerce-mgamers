@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalLogin /> should render to login 1`] = `
+.c0 {
+  z-index: 100;
+}
+
+<div
+  class="c0"
+/>
+`;

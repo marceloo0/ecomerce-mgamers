@@ -28,10 +28,13 @@ interface CartContextData {
   carts: Stock[]
   increment(id: number): void
   decrement(id: number): void
+  openModal(): void
+  closeModal(): void
   addProduct: (productId: ProductsProps) => void
   removeProduct: (productId: number) => void
   total: number
   totalItems: number
+  modalIsOpen: boolean
 }
 
 export const CartContext = createContext<CartContextData>({} as CartContextData)
@@ -42,6 +45,7 @@ export function CartContextProvider({
   const [carts, setCarts] = useState<Stock[]>([])
   const [total, setTotal] = useState(0)
   const [totalItems, setTotalItems] = useState(0)
+  const [modalIsOpen, setIsOpen] = useState(false)
   const { user } = useAuth()
 
   useEffect(() => {
@@ -58,6 +62,14 @@ export function CartContextProvider({
     }, 0)
     setTotalItems(totalParcial)
   }, [carts])
+
+  const openModal = () => {
+    setIsOpen(true)
+  }
+
+  const closeModal = () => {
+    setIsOpen(false)
+  }
 
   const addProduct = useCallback(
     (cart: ProductsProps) => {
@@ -77,7 +89,7 @@ export function CartContextProvider({
           setCarts([...carts, { ...cart, quantity: 1 }])
         }
       } else {
-        Router.push('/signIn')
+        openModal()
       }
     },
     [carts, user]
@@ -133,7 +145,10 @@ export function CartContextProvider({
         increment,
         decrement,
         addProduct,
-        removeProduct
+        removeProduct,
+        modalIsOpen,
+        closeModal,
+        openModal
       }}
     >
       {children}

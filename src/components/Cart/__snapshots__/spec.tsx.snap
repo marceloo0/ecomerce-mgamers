@@ -42,7 +42,6 @@ exports[`<Cart /> should render default 1`] = `
   width: 100%;
   padding: 12px;
   margin: auto;
-  z-index: 4;
 }
 
 .c20 {
@@ -122,7 +121,6 @@ exports[`<Cart /> should render default 1`] = `
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: #201C2B;
-  z-index: 99;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -219,12 +217,11 @@ exports[`<Cart /> should render default 1`] = `
 .c9 {
   position: absolute;
   left: auto;
-  top: 5rem;
+  bottom: 5rem;
   z-index: 0;
 }
 
 .c12 {
-  z-index: 1000;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -339,7 +336,7 @@ exports[`<Cart /> should render default 1`] = `
     class="c12"
   >
     <div
-      style="z-index: 4;"
+      style="z-index: 0;"
     >
       <div
         class="c13"
@@ -426,7 +423,7 @@ exports[`<Cart /> should render default 1`] = `
       </div>
     </div>
     <div
-      style="z-index: 4;"
+      style="z-index: 0;"
     >
       <div
         class="c13"

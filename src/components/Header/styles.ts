@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: ${({ theme }) => theme.colors.mainBg};
-  z-index: 99;
   position: sticky;
   top: 0;
 `

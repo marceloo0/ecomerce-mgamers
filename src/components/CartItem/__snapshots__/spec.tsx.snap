@@ -42,7 +42,6 @@ exports[`<CartItem /> should render quantity 1 1`] = `
   width: 100%;
   padding: 12px;
   margin: auto;
-  z-index: 4;
 }
 
 .c7 {

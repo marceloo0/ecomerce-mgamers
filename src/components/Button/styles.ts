@@ -32,6 +32,7 @@ export const Wrapper = styled.button<WrapperProps>`
     css`
       padding: ${theme.spacings.xsmall} ${theme.spacings.medium};
       font-size: ${theme.font.sizes.small};
+      border: 0.2px solid ${({ theme }) => theme.colors.primary};
     `}
 
   ${({ theme, hasIcon, hasChildren }) =>

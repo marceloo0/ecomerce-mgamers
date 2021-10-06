@@ -5,12 +5,8 @@ import formatedValue from '../../utils/formatedValue'
 import * as S from './styles'
 
 export const Footer = () => {
-  const { user, signout } = useAuth()
-  const { total } = useCart()
-
-  const handleFinalize = () => {
-    signout()
-  }
+  const { user } = useAuth()
+  const { total, openModal } = useCart()
 
   return (
     <S.Flex>
@@ -19,11 +15,7 @@ export const Footer = () => {
           <S.TotalText>Valor total:</S.TotalText>
           <S.Title>{formatedValue(total)}</S.Title>
           <div style={{ padding: 24 }}>
-            <Button
-              aria-label="finaliza"
-              onClick={handleFinalize}
-              size="medium"
-            >
+            <Button aria-label="finaliza" onClick={openModal} size="medium">
               Finalizar compra
             </Button>
           </div>

@@ -17,7 +17,6 @@ exports[`<Dashboard /> should render default 1`] = `
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: #201C2B;
-  z-index: 99;
   position: -webkit-sticky;
   position: sticky;
   top: 0;

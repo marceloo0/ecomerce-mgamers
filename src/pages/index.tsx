@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
-import { Dashboard } from '../components'
+import { Dashboard, ModalPage } from '../components'
 
 const Home: NextPage = () => {
   return (
     <>
       <Dashboard type="products" aria-label="dashboard" />
+      {/* <ModalPage login={false} /> */}
     </>
   )
 }

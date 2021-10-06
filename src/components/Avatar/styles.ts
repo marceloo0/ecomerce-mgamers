@@ -26,6 +26,10 @@ export const DropDown = styled.div`
     left: 2rem;
     bottom: 2.2rem;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 `
 
 export const Wrapper = styled.div<AvatarProps>`

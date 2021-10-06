@@ -24,11 +24,11 @@ export const FooterWapper = styled.div`
 export const BoxTitle = styled.div`
   position: absolute;
   left: auto;
-  top: 5rem;
+  bottom: 5rem;
   z-index: 0;
 `
 export const Content = styled.div`
-  z-index: 1000;
+  /* z-index: 1; */
   width: 100%;
   height: 100%;
   display: flex;

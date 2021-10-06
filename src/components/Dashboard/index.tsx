@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import { useCart } from '../../hooks'
-import { Footer, Header, Menu, News, Products } from '../../components/index'
+import {
+  Footer,
+  Header,
+  Menu,
+  ModalLogin,
+  News,
+  Products
+} from '../../components/index'
 
 import * as S from './styles'
 
@@ -9,7 +16,7 @@ interface ProductItemsProps {
 }
 
 export const Dashboard = ({ type }: ProductItemsProps) => {
-  const { carts } = useCart()
+  const { carts, modalIsOpen } = useCart()
   const [showMenu, setShowMenu] = useState(false)
 
   const handleShowMenu = () => {
@@ -35,6 +42,7 @@ export const Dashboard = ({ type }: ProductItemsProps) => {
           <Menu handleShowMenu={handleShowMenu} />
         </S.BoxMenu>
       )}
+      {modalIsOpen && <ModalLogin />}
     </S.Wrapper>
   )
 }
