@@ -41,6 +41,7 @@ As tecnologias utilizadas:
 - [Vercel] (https://vercel.com/home)
 - [Firebase] (https://console.firebase.google.com)
 - [Storybook] (https://storybook.js.org/)
+- [Jest] (https://jestjs.io/pt-BR/docs/getting-started)
 
 ## Inciando o app
 
