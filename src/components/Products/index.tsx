@@ -15,6 +15,7 @@ export const Products = ({ type }: ProductItemsProps) => {
   const [products, setProducts] = useState<ProductsProps[]>([])
   const [current, setCurrent] = useState(0)
   const [productsItems, setProductsItems] = useState<ProductsProps[]>([])
+
   const length = type === 'products' ? products.length : productsItems.length
 
   useEffect(() => {

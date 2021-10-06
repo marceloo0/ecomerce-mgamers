@@ -13,6 +13,7 @@ type User = {
 type AuthContextType = {
   user: User | undefined
   signinGoogle: () => Promise<void>
+  signinGitHub: () => Promise<void>
   signout: () => void
   loadingPage: (load: boolean) => void
   loading: boolean
@@ -80,6 +81,33 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
     }
   }
 
+  const signinGitHub = async () => {
+    const provider = new firebase.auth.GithubAuthProvider()
+    try {
+      setLoading(true)
+      const response = await auth.signInWithPopup(provider)
+
+      console.log(response)
+      if (response.user) {
+        const { displayName, photoURL, uid, email } = response.user
+
+        if (!displayName || !photoURL || !email) {
+          throw new Error('Missing information from Google Account.')
+        }
+
+        setUser({
+          id: uid,
+          name: displayName,
+          avatar: photoURL,
+          email: email
+        })
+        Router.push('/')
+      }
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const loadingPage = async (load: boolean) => {
     setLoading(load)
   }
@@ -98,7 +126,14 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 
   return (
     <AuthContext.Provider
-      value={{ user, signout, signinGoogle, loading, loadingPage }}
+      value={{
+        user,
+        signout,
+        signinGoogle,
+        signinGitHub,
+        loading,
+        loadingPage
+      }}
     >
       {props.children}
     </AuthContext.Provider>

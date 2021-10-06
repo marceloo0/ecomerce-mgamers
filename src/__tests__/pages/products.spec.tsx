@@ -7,7 +7,6 @@ jest.mock('next/router', () => {
     useRouter() {
       return {
         asPath: '/',
-        // router:
         query: {
           slug: 'mouses'
         }

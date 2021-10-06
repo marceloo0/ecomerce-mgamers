@@ -7,7 +7,7 @@ import { useAuth } from '../../hooks/useAuth'
 import * as S from './styles'
 
 export const FormSignIn = () => {
-  const { signinGoogle } = useAuth()
+  const { signinGoogle, signinGitHub } = useAuth()
 
   return (
     <S.Wrapper>
@@ -20,7 +20,7 @@ export const FormSignIn = () => {
         <Button icon={<FcGoogle size={36} />} onClick={signinGoogle}>
           Acesse com conta Google
         </Button>
-        <Button icon={<FaGithub size={36} />} onClick={signinGoogle}>
+        <Button icon={<FaGithub size={36} />} onClick={signinGitHub}>
           Acesse com conta GitHub
         </Button>
       </S.Box>

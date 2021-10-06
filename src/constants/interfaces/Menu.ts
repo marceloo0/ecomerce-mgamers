@@ -10,7 +10,7 @@ export const menu = [
     price: 'R$ 919,90'
   },
   {
-    title: 'HeadseatS',
+    title: 'HeadsetS',
     img: '/img/menu/headset.svg',
     price: 'R$ 319,90'
   },
