@@ -20,7 +20,6 @@ export const Box = styled.div`
   justify-content: center;
 `
 export const BoxUser = styled.div`
-  /* display: none; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,13 +30,9 @@ export const Flex = styled.div`
   justify-content: center;
 `
 export const FlexAvatar = styled.div`
-  display: none;
-
-  @media (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 export const Divider = styled.div`
   width: 0.1rem;
@@ -53,6 +48,8 @@ export const Description = styled.button`
   color: ${({ theme }) => theme.colors.text};
   font-weight: ${({ theme }) => theme.font.bold};
   font-size: ${({ theme }) => theme.font.sizes.xxsmall};
+  background-color: transparent;
+  border: none;
 `
 export const MenuIcon = styled(CgMenuRight)`
   width: 36px;

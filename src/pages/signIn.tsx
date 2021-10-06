@@ -1,7 +1,7 @@
-import FormSignIn from '~/components/FormSignIn'
+import { FormSignIn } from '../components/FormSignIn'
 
 const SignIn = () => {
-  return <FormSignIn />
+  return <FormSignIn aria-label="signin" />
 }
 
 export default SignIn

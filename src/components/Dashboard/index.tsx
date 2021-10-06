@@ -1,6 +1,6 @@
 import { useState } from 'react'
-
-import { Header, Menu, News, Products } from '../../components/index'
+import { useCart } from '../../hooks'
+import { Footer, Header, Menu, News, Products } from '../../components/index'
 
 import * as S from './styles'
 
@@ -9,6 +9,7 @@ interface ProductItemsProps {
 }
 
 export const Dashboard = ({ type }: ProductItemsProps) => {
+  const { carts } = useCart()
   const [showMenu, setShowMenu] = useState(false)
 
   const handleShowMenu = () => {
@@ -25,6 +26,7 @@ export const Dashboard = ({ type }: ProductItemsProps) => {
           ) : (
             <>
               <Products type={type} />
+              {carts?.length >= 1 && <Footer />}
             </>
           )}
         </>

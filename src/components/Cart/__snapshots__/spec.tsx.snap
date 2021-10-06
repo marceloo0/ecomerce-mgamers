@@ -170,6 +170,8 @@ exports[`<Cart /> should render default 1`] = `
   color: #C7ECEC;
   font-weight: 600;
   font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
 }
 
 .c8 {
@@ -337,170 +339,178 @@ exports[`<Cart /> should render default 1`] = `
     class="c12"
   >
     <div
-      class="c13"
+      style="z-index: 4;"
     >
       <div
-        class="c14"
+        class="c13"
       >
-        <div
-          class="c15"
-        >
-          <img
-            alt="/img/products/mouseRazer.svg"
-            class="c16"
-            src="/img/products/mouseRazer.svg"
-          />
-        </div>
-        <div
-          class="c15"
-        >
-          <h3
-            class="c17"
-          >
-            Mouse Gamer Razer Deathadder
-          </h3>
-        </div>
         <div
           class="c14"
         >
           <div
             class="c15"
           >
-            <span
-              class="c18"
-            >
-              R$ 155,90
-            </span>
+            <img
+              alt="/img/products/mouseRazer.svg"
+              class="c16"
+              src="/img/products/mouseRazer.svg"
+            />
           </div>
           <div
             class="c15"
-            style="margin-left: 24px;"
           >
-            <button
-              class="c19"
+            <h3
+              class="c17"
             >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
-                />
-              </svg>
-            </button>
-            <button
-              class="c19"
+              Mouse Gamer Razer Deathadder
+            </h3>
+          </div>
+          <div
+            class="c14"
+          >
+            <div
+              class="c15"
             >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                class="c18"
               >
-                <path
-                  d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
-                />
-              </svg>
-            </button>
+                R$ 155,90
+              </span>
+            </div>
+            <div
+              class="c15"
+              style="margin-left: 24px;"
+            >
+              <button
+                class="c19"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="c19"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
+        <div
+          class="c20"
+        />
       </div>
-      <div
-        class="c20"
-      />
     </div>
     <div
-      class="c13"
+      style="z-index: 4;"
     >
       <div
-        class="c14"
+        class="c13"
       >
-        <div
-          class="c15"
-        >
-          <img
-            alt="/img/products/headsetBlue.svg"
-            class="c16"
-            src="/img/products/headsetBlue.svg"
-          />
-        </div>
-        <div
-          class="c15"
-        >
-          <h3
-            class="c17"
-          >
-            Headset Gamer Logitech G432 7.1 Dolby Surround
-          </h3>
-        </div>
         <div
           class="c14"
         >
           <div
             class="c15"
           >
-            <span
-              class="c18"
-            >
-              R$ 488,90
-            </span>
+            <img
+              alt="/img/products/headsetBlue.svg"
+              class="c16"
+              src="/img/products/headsetBlue.svg"
+            />
           </div>
           <div
             class="c15"
-            style="margin-left: 24px;"
           >
-            <button
-              class="c19"
+            <h3
+              class="c17"
             >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
-                />
-              </svg>
-            </button>
-            <button
-              class="c19"
+              Headset Gamer Logitech G432 7.1 Dolby Surround
+            </h3>
+          </div>
+          <div
+            class="c14"
+          >
+            <div
+              class="c15"
             >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                class="c18"
               >
-                <path
-                  d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
-                />
-              </svg>
-            </button>
+                R$ 488,90
+              </span>
+            </div>
+            <div
+              class="c15"
+              style="margin-left: 24px;"
+            >
+              <button
+                class="c19"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5 6h-5.5v-5.5c0-0.276-0.224-0.5-0.5-0.5h-3c-0.276 0-0.5 0.224-0.5 0.5v5.5h-5.5c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h5.5v5.5c0 0.276 0.224 0.5 0.5 0.5h3c0.276 0 0.5-0.224 0.5-0.5v-5.5h5.5c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="c19"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 6.5v3c0 0.276 0.224 0.5 0.5 0.5h15c0.276 0 0.5-0.224 0.5-0.5v-3c0-0.276-0.224-0.5-0.5-0.5h-15c-0.276 0-0.5 0.224-0.5 0.5z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
+        <div
+          class="c20"
+        />
       </div>
-      <div
-        class="c20"
-      />
     </div>
     <div
       class="c21"

@@ -3,15 +3,16 @@ import { Menu } from '.'
 
 export default {
   title: 'Menu',
-  component: Menu,
-  argTypes: {
-    children: {
-      type: ''
-    }
-  }
+  component: Menu
 } as Meta
 
-export const Default: Story = () => <Menu />
+export const Default: Story = () => (
+  <Menu
+    handleShowMenu={() => {
+      ;(prevState: boolean) => !prevState
+    }}
+  />
+)
 
 Default.args = {
   children: ''

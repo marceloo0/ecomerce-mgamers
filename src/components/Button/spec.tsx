@@ -1,4 +1,4 @@
-import { screen, fireEvent } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests/helpers'
 import { FaAdobe } from 'react-icons/fa'
 

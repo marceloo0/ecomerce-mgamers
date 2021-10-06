@@ -25,11 +25,10 @@ export const Cart = () => {
         <TitleBackground title="Seu Carrinho" />
       </S.BoxTitle>
       <S.Content>
-        {carts.length > 0 ? (
+        {carts?.length >= 1 ? (
           carts.map((item) => (
-            <>
+            <div key={item.id} style={{ zIndex: 4 }}>
               <CartItem
-                key={item.id}
                 img={item.img}
                 title={item.title}
                 quantity={item.quantity}
@@ -38,7 +37,7 @@ export const Cart = () => {
                 price={item.price}
                 titleBackground={item.titleBackground}
               />
-            </>
+            </div>
           ))
         ) : (
           <S.Empty>
@@ -48,7 +47,7 @@ export const Cart = () => {
             </Button>
           </S.Empty>
         )}
-        {carts.length > 0 && (
+        {carts?.length > 0 && (
           <S.FooterWapper>
             <Footer />
           </S.FooterWapper>

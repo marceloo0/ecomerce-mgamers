@@ -1,6 +1,7 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 import { CartItem } from '.'
-import { CartItemProps } from '~/constants/interfaces/CartProduct'
+import { Stock } from '../../constants/interfaces/Products'
+
 export default {
   title: 'CartItem',
   component: CartItem,
@@ -23,11 +24,11 @@ export default {
   }
 } as Meta
 
-export const Default: Story<CartItemProps> = (args) => <CartItem {...args} />
+export const Default: Story<Stock> = (args) => <CartItem {...args} />
 
 Default.args = {
   img: '/img/products/mouseSteels.svg',
   title: 'Mouse Gamer Razer Deathadder V2',
   quantity: 2,
-  price: 'R$ 560,00'
+  price: 560
 }

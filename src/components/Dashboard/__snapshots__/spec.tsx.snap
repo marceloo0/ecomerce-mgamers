@@ -65,6 +65,8 @@ exports[`<Dashboard /> should render default 1`] = `
   color: #C7ECEC;
   font-weight: 600;
   font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
 }
 
 .c8 {

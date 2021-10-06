@@ -22,7 +22,7 @@ describe('<Avatar />', () => {
   it('should render default', () => {
     const { container } = renderWithTheme(<Avatar />)
 
-    expect(screen.getByText(/M/i)).toBeInTheDocument()
+    expect(screen.getByText(/Sair/i)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

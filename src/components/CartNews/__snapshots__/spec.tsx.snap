@@ -134,12 +134,12 @@ exports[`<CartNews /> should render default 1`] = `
     <span
       class="c4"
     >
-      180.94
+      R$ 180,94
     </span>
     <h3
       class="c5"
     >
-      155.9
+      R$ 155,90
     </h3>
   </div>
   <div

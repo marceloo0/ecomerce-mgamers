@@ -22,10 +22,6 @@ describe('<Products />', () => {
   it('should render default', () => {
     renderWithTheme(<Products type="products" />)
 
-    // expect(
-    //   screen.getByRole('default', { name: /Products/i })
-    // ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
+    expect(screen.getByLabelText(/products/i)).toBeInTheDocument()
   })
 })

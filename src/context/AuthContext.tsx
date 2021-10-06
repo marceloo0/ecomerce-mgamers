@@ -87,7 +87,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
   const signout = async () => {
     try {
       setLoading(true)
-      Router.push('/')
+      Router.reload()
       await firebase.auth().signOut()
       setUser({} as User)
       cookie.remove('@mgamers-auth')

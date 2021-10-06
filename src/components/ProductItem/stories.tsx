@@ -1,12 +1,17 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 import { ProductItem } from '.'
-import { ItemProductProps } from '../../constants/interfaces/Products'
+import { ProductsItemProps } from '../../constants/interfaces/Products'
+
+const current = 0
 
 export default {
   title: 'ProductItem',
   component: ProductItem,
   argTypes: {
     item: {
+      id: {
+        type: 'number'
+      },
       title: {
         type: 'string'
       },
@@ -25,11 +30,17 @@ export default {
       titleBackground: {
         type: 'string'
       }
+    },
+    handlePrevSlide: () => {
+      current === length - 1 ? 0 : current - 1
+    },
+    handleNextSlide: () => {
+      current === length - 1 ? 0 : current + 1
     }
   }
 } as Meta
 
-export const Default: Story<ItemProductProps> = (args) => (
+export const Default: Story<ProductsItemProps> = (args) => (
   <ProductItem {...args} />
 )
 

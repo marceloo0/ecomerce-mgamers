@@ -1,12 +1,10 @@
 import type { NextPage } from 'next'
-import { Dashboard } from '~/components/Dashboard'
-import Layout from '~/components/Layout'
-import { useRouter } from 'next/router'
+import { Dashboard } from '../components'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Dashboard type="products" />
+      <Dashboard type="products" aria-label="dashboard" />
     </>
   )
 }

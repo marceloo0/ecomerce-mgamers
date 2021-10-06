@@ -1,11 +1,11 @@
 import { useRouter } from 'next/router'
-import Dashboard from '~/components/Dashboard'
+import { Dashboard } from '../../components'
 
-const Mouses = () => {
+const Products = () => {
   const router = useRouter()
   const { slug } = router.query
 
-  return <Dashboard type={String(slug)} />
+  return <Dashboard type={String(slug)} aria-label="products" />
 }
 
-export default Mouses
+export default Products

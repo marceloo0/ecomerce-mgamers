@@ -3,7 +3,6 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 import { PRODUCTS } from '../../constants/api/products'
 import api from '../../services/api'
 import { ProductsProps } from '../../constants/interfaces/Products'
-import { useCart } from '../../hooks/index'
 import { Sider, ProductItem } from '../../components/index'
 
 import * as S from './styles'
@@ -45,7 +44,7 @@ export const Products = ({ type }: ProductItemsProps) => {
   }
 
   return (
-    <S.Wrapper>
+    <S.Wrapper aria-label="products">
       <S.Flex>
         <S.SiderText>
           <S.Title>Bem-vindo a sua loja virtual MgamerS</S.Title>

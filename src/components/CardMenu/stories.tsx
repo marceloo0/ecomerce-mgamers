@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 import { CardMenu } from '.'
-import { CardMenuProps } from '~/constants/interfaces/CardMenu'
+import { CardMenuProps } from '../../constants/interfaces/CardMenu'
 
 export default {
   title: 'CardMenu',
@@ -21,8 +21,7 @@ export default {
 export const Default: Story<CardMenuProps> = (args) => <CardMenu {...args} />
 
 Default.args = {
-  price: 99,
+  price: 'R$ 99,00',
   img: '/img/menu/headset.svg',
-  titleBackground: 'mouses',
-  sizeImg: 'small'
+  titleBackground: 'mouses'
 }

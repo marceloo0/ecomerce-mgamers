@@ -1,12 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Avatar /> should render default 1`] = `
+.c2 {
+  position: absolute;
+  top: 3rem;
+  right: 8rem;
+  background: rgb(19,19,19);
+  border: 1px solid rgba(151,151,151,0.34);
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 0px 18px 0px;
+  padding: 8px 16px;
+  font-size: 14px;
+  -webkit-letter-spacing: 3px;
+  -moz-letter-spacing: 3px;
+  -ms-letter-spacing: 3px;
+  letter-spacing: 3px;
+  width: 100px;
+  opacity: 0;
+}
+
+.c2 > span {
+  color: #fff;
+}
+
 .c0 {
   width: 2rem;
   height: 2rem;
   border: 3px solid #7FFA45;
   border-radius: 50%;
-  background-color: #201C2B;
+  background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5BC047E692DC768BDD446D83708CBBD5686FA64EE5D5D3D3C3B0A5A788BE1548/scale?width=280&format=png);
+  background-size: contain;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -21,11 +44,17 @@ exports[`<Avatar /> should render default 1`] = `
   justify-content: center;
 }
 
-.c1 {
-  text-transform: uppercase;
-  color: #C7ECEC;
-  font-size: 1.2rem;
-  font-weight: 600;
+.c0:hover .c1 {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+@media screen and (max-width:400px) {
+  .c2 {
+    left: 2rem;
+    bottom: 2.2rem;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -35,19 +64,15 @@ exports[`<Avatar /> should render default 1`] = `
   }
 }
 
-@media screen and (min-width:768px) {
-  .c1 {
-    font-size: 1.6rem;
-  }
-}
-
 <div
   class="c0"
 >
-  <span
-    class="c1"
+  <div
+    class="c1 c2"
   >
-    m
-  </span>
+    <span>
+      Sair
+    </span>
+  </div>
 </div>
 `;

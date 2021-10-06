@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import { Cart } from '~/components/Cart'
+import { Cart } from '../components/Cart'
 
 const CartList: NextPage = () => {
   return (
     <>
-      <Cart />
+      <Cart aria-label="cartlist" />
     </>
   )
 }

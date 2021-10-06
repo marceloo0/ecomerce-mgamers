@@ -1,6 +1,7 @@
 import { ImPlus } from 'react-icons/im'
 import { useCart } from '../../hooks/useCart'
 import { ProductsProps } from '../../constants/interfaces/Products'
+import formatedPrice from '../../utils/formatedValue'
 
 import { Button } from '../Button'
 
@@ -18,8 +19,8 @@ export const CartNews = ({ item }: CartNewsProps) => {
       <S.Img src={item.img} alt={item.img} />
       <S.Box>
         <S.Title>{item.title}</S.Title>
-        <S.Price>{item.price}</S.Price>
-        <S.Promotion>{item.promotion}</S.Promotion>
+        <S.Price>{formatedPrice(item.price)}</S.Price>
+        <S.Promotion>{formatedPrice(item.promotion)}</S.Promotion>
       </S.Box>
       <S.Flex>
         <Button
